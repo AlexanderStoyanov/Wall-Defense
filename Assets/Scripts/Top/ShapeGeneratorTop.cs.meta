@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: d2eb813a38a59b741bb374ffd98de03e
+timeCreated: 1510198812
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - shape1: {fileID: 1945495691683360, guid: dea8bca03a1ad0b4a82d24da037c6ae8, type: 2}
+  - shape2: {instanceID: 0}
+  - shape3: {instanceID: 0}
+  - shape4: {instanceID: 0}
+  - generationPoint: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

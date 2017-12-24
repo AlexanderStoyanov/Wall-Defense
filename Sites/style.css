@@ -1,0 +1,79 @@
+body {
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, red , yellow); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, red, yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, red, yellow); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(circle, blue, indigo, black); /* Standard syntax */
+    margin: 0;
+}
+
+header {
+    background: gray;
+    color: white;
+    height: 50px;
+}
+
+header h1 {
+    margin: 0px;
+    display: inline;
+    padding: 20px;
+}
+
+div h1 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+nav ul {
+    margin: 0;
+    display: inline;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px 15px;
+}
+
+nav ul li a {
+    color: white;
+}
+
+div p1 {
+    color: white;
+    font-size:20px;
+    width: 95%;
+    float: left;
+    text-align: center;
+}
+
+.web_button {
+    color: white;
+    font-size: 18px;
+}
+
+.displayImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    height: 600px;
+    top: 30px;
+}
+
+.center {
+    margin: auto;
+    width: 18%;
+    padding: 50px;
+}
+.centervid {
+    margin: auto;
+    width: 50%;
+    padding: 50px;
+}
+
+.footer {
+    bottom: top 100px;
+}

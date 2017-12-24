@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>WallDefense.com</title>
+        <link rel = "stylesheet" href = "style.css" type = "text/css"/>
+    </head>
+    <body>
+        <header>
+			<script language="JavaScript1.2">
+
+var howOften = 3; //number often in seconds to rotate
+var current = 0; //start the counter at 0
+var ns6 = document.getElementById&&!document.all; //detect netscape 6
+
+// place your images, text, etc in the array elements here
+var items = new Array();
+    items[0]="<img alt='image0 (9K)' src='https://i.imgur.com/Ms7atIs.png' height='300' width='300' border='0' /></a>"; //a linked image
+    items[1]="<img alt='image1 (9K)' src='https://i.imgur.com/OOvIYfU.png' height='300' width='300' border='0' /></a> "; //a linked image
+    items[2]="<img alt='image2 (9K)' src='https://i.imgur.com/7mG7rKZ.png' height='300' width='300' border='0' /></a>"; //a linked image
+   items[3]="<img alt='image3 (9K)' src='https://i.imgur.com/owl0nNH.png' height='300' width='300' border='0' /></a>"; //a linked image
+    items[4]="<img alt='image4 (9K)' src='https://i.imgur.com/kstwa6Z.png' height='300' width='300' border='0' /></a>"; //a linked image
+   items[5]="<img alt='image4 (9K)' src='https://i.imgur.com/fDFVGdN.png' height='300' width='300' border='0' /></a>"; //a linked image
+function rotater() {
+    document.getElementById("placeholder").innerHTML = items[current];
+    current = (current==items.length-1) ? 0 : current + 1;
+    setTimeout("rotater()",howOften*1000);
+}
+
+function rotater() {
+    if(document.layers) {
+        document.placeholderlayer.document.write(items[current]);
+        document.placeholderlayer.document.close();
+    }
+    if(ns6)document.getElementById("placeholderdiv").innerHTML=items[current]
+        if(document.all)
+            placeholderdiv.innerHTML=items[current];
+
+    current = (current==items.length-1) ? 0 : current + 1; //increment or reset
+    setTimeout("rotater()",howOften*1000);
+}
+window.onload=rotater;
+//-->
+</script>
+
+        <nav>
+        <h1>WallDefense.com</h1>
+            <ul>
+                <li><a href = "index.html" class = "web_button">Home</a></li>
+                <li><a href = "aboutGame.html" class = "web_button">About The Game</a></li>
+                <li><a href = "media.html" class = "web_button">Media</a></li>
+                <li><a href = "form.php" class = "web_button">Contact Us</a></li>
+            </ul>
+        </nav>
+        </header>
+    <div>
+        <h1>Find Us On YouTube</h1>
+        <div class="centervid">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/WqDzeakPGxI" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+            </div>
+        <h1>Avatars</h1>
+		<layer id="placeholderlayer"></layer><div class="center" id="placeholderdiv"></div>
+		<p style="text-align:center;"><img src="https://i.imgur.com/Ms7atIs.png"></p>
+		<p style="text-align:center;"><img src="https://i.imgur.com/OOvIYfU.png"></p>
+		<p style="text-align:center;"><img src="https://i.imgur.com/7mG7rKZ.png"></p>
+		<p style="text-align:center;"><img src="https://i.imgur.com/owl0nNH.png"></p>
+		<p style="text-align:center;"><img src="https://i.imgur.com/kstwa6Z.png"></p>
+		<p style="text-align:center;"><img src="https://i.imgur.com/fDFVGdN.png"></p>
+    </div>
+    </body>
+</html>

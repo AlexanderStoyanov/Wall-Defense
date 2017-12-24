@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - RightD
+  - RightT
+  - RightP
+  - RightS
+  - LeftD
+  - LeftT
+  - LeftP
+  - LeftS
+  - TopD
+  - TopT
+  - TopP
+  - TopS
+  - BotD
+  - BotT
+  - BotP
+  - BotS
+  - Defending
+  - PauseObject
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Pause
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Pause
+    uniqueID: 4193363407
+    locked: 0
